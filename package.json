@@ -1,0 +1,22 @@
+{
+  "name": "mongodbCrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node  -r dotenv/config --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/jwt": "^6.7.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.17.0",
+    "mongoose": "^7.2.0",
+    "zod": "^3.21.4"
+  }
+}
